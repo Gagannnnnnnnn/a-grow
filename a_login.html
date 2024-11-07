@@ -1,0 +1,107 @@
+<html>
+    <head>
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"  />
+
+        <title>
+            user login
+        </title>
+        <style>
+            body{
+                background-color: lightblue;
+                display: flex;
+            }
+        
+            
+
+
+
+            #a2{
+                border: 2px blue solid ;
+                background-color: aqua;
+                border-radius: 20px;
+                margin-left: 30px;
+                width: fit-content;
+                height: fit-content;
+
+
+            }
+
+
+            #a1{
+                display: flex;
+                justify-items:center;
+                margin-top: 200px;
+                margin-left: 500px;
+                border: 2px black solid;
+                background-color: white;
+                border-radius: 20px;
+                border-width: 30px;
+                width: fit-content;
+                height: fit-content;
+            }
+
+
+            input{
+                border-radius: 5px;
+                margin-left:10px;
+                margin-right:10px;
+                margin-top: 5px;
+            }
+            h6{
+                margin-top: 20px;
+                margin-bottom: 2px;
+                margin-left: -130px;
+                
+                
+                
+            }
+
+
+            #button{
+                border: 2px yellowgreen solid;
+                background-color: black;
+                border-radius: 10px;
+                height: 50px;
+                width: 70px;
+                color: azure;
+                margin-top:  550px;
+                margin-left: -330px;
+            }
+
+
+            #button:hover{
+                border: 2px yellowgreen solid;
+                background-color: yellowgreen;
+                border-radius: 10px;
+                height: 50px;
+                width: 70px;
+                color: black;
+                margin-top:  550px;
+                margin-left: -330px;
+            }
+           
+            
+
+        </style>
+    </head>
+    <body>
+        
+
+        <div id="a1" >
+            <i class="fa-solid fa-user-tie fa-10x"></i>
+            <h6 style="font-size: 100px;"><br>admin<br></h6>
+        <div id="a2">
+            
+           
+            <input type="text" id="admin_id" name="admin_id" placeholder="admin_id" required><br><br>
+            <input type="tel" id="phone" name="phone" placeholder="enter your number" minlength="10" maxlength="10" required><br><br>
+            <input type="password" id="password" name="password"placeholder="enter your password" minlength="8" maxlength="12" required><br><br>
+            <input type="otp" id="otp" name="otp" placeholder="enter otp" minlength="6" maxlength="6" required><br><br>
+            
+        </div>
+        </div>
+
+         <input type="button" id="button" name="button"  value="submit"><br><br>
+    </body>
+</html>
